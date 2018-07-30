@@ -1,0 +1,18 @@
+[32m==> [0mProcessing block [33m[10001] [32m[a5e1a]
+[0m[32m==> [0mProcessing block [33m[10002] [32m[bc681]
+[0m{"hash":"bc681055748ffcd04960546012fb06a8dfa4245ffb6241318d9994a6a045ca0e","height":10002}
+"bar"
+[32m==> [0mProcessing block [33m[10003] [32m[5b3c8]
+[0m{"bar":false,"foo":3.14}
+[32m==> [0mProcessing block [33m[10004] [32m[9dcbe]
+[0m[true,2,3]
+[32m==> [0mProcessing block [33m[10005] [32m[36c9c]
+[0m[32m==> [0mProcessing block [33m[10006] [32m[6f3e1]
+[0m"b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9"
+last!!!
+"testing error"
+Failed to execute file exec_test1.lua: <string>:25: assertion failed!
+stack traceback:
+	[G]: in function 'assert'
+	<string>:25: in main chunk
+	[G]: ?

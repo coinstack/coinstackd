@@ -1,0 +1,65 @@
+package: github.com/coinstack/coinstackd
+import:
+- package: github.com/btcsuite/btclog
+- package: github.com/coinstack/btcutil
+  subpackages:
+  - .
+  - bloom
+  - base58
+- package: github.com/btcsuite/fastsha256
+- package: github.com/btcsuite/go-flags
+- package: github.com/btcsuite/go-socks
+  subpackages:
+  - socks
+- package: github.com/btcsuite/golangcrypto
+  subpackages:
+  - ripemd160
+- package: github.com/btcsuite/seelog
+  version: 313961b101eb55f65ae0f03ddd4e322731763b6c
+- package: github.com/btcsuite/websocket
+- package: github.com/btcsuite/winsvc
+  subpackages:
+  - eventlog
+  - mgr
+  - svc
+- package: github.com/davecgh/go-spew
+  subpackages:
+  - spew
+- package: github.com/coinstack/gopher-lua
+  version: c9c62d4ee45ec58c3b3dfc4ee47138a4c92f1b14
+- package: github.com/coinstack/gopher-lua-json
+  version: 7fc401b8834cef23592137a92d443e233ec449cb
+- package: github.com/vincent-petithory/dataurl
+- package: github.com/coreos/etcd
+  version: ~3.2.9
+  subpackages:
+  - clientv3
+- package: github.com/shirou/gopsutil
+  version: 2.17.10
+  repo: https://github.com/shirou/gopsutil.git
+  vcs: git
+  subpackages:
+  - cpu
+  - disk
+  - mem
+  - net
+- package: github.com/StackExchange/wmi
+- package: github.com/go-ole/go-ole
+  subpackages:
+  - oleutil
+- package: golang.org/x/sys
+  subpackages:
+  - unix
+  - windows
+- package: github.com/bluele/gcache
+- package: github.com/vrischmann/jsonutil
+- package: github.com/Jeffail/tunny
+- package: github.com/coinstack/goleveldb
+  vcs: git
+  subpackages:
+  - leveldb
+- package: github.com/gin-gonic/gin
+  version: =1.2
+- package: github.com/coinstack/go-sqlite3
+  vcs: git
+  version: 74f823dd1a0e35ed2fed089beedd28904dab07ab
