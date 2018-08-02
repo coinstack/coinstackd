@@ -16,7 +16,7 @@ It has been recognized as a world-class technology by GS certification of ISO in
 
 #### You can see various development documentation in github.
 
-[BlockoDoc](https://github.com/blockodocp)
+[BlockoDoc](https://github.com/blockodoc)
 
 ## Requirements
 
