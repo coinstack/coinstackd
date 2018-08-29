@@ -103,4 +103,4 @@ Also see coninstack_manual_v0.2_20180726.pdf(Korean version only, English versio
 
 ## License
 
-Coinstack is licensed under the [copyfree](http://copyfree.org) ISC License.
+Coinstack is licensed under the modified ISC License.(see LICENSE file)
